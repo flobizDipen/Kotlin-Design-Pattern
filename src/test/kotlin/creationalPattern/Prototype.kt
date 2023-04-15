@@ -3,6 +3,11 @@ package creationalPattern
 import org.assertj.core.api.Assertions
 import org.junit.jupiter.api.Test
 
+/*
+* Prototype Design Pattern
+* - Copy existing object without depending on their classes, only relent on interface
+* */
+
 abstract class Shape : Cloneable {
     var id: String? = null
     var type: String? = null
